@@ -4,4 +4,10 @@
 
 <p>A simple clone for Udemy homepage <p> 
   
+  ## Technologies used in this landing page
+  - HTML
+  - CSS
   
+  
+  ## Note
+  - I'm applying concepts learned so far
