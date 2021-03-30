@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif,Arial;
+    color: #1c1d1f;
+    
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    align-items: center;
+
+    background: #fff;
+    height: 72px;
+    padding: 0 16px;
+
+    border-bottom:1px solid #aaa ;
+
+}
+
+.logo img {
+    width: 110px ;
+}
+
+a {
+    text-decoration: none;
+    margin: 12px 0;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(171, 5, 236);
+}
+
+/* Search bar */
+
+.searchbar{
+    display: flex;
+    height: 50px;
+    width: 500px;
+    align-items: center;
+    margin: 0 12px;
+
+    background: rgba(91, 209, 215, 0.05) ;
+    
+    border: 1px solid #1c1d1f;
+    border-radius:25px ;
+}
+
+button {
+    border: 0;
+    background: none;
+    height: 100%;
+    width: 42px;
+    padding: 0 12px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+}
+
+.searchbar input {
+    flex: 1;
+    height: 100%;
+    width: 80%;
+    padding: 0 16px 0 4px;
+    
+    background-color: transparent;
+
+    border:none;
+    outline: none;
+}
+
+/* Menu Navbar */
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    justify-content: space-evenly;
+}
+
+.header-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu ul li a:hover {
+    color: rgb(171, 5, 236);
+}
+
+.perfil-img img{
+    height: 40px;
+    border-radius: 50%;
+    
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top:13px;
+    right:40px;
+
+    width: 13px;
+    height: 13px;
+
+    border-radius: 50%;
+
+    background: rgb(171, 5, 236);
+}
+
+.item3 .badge {
+    right:0;
+}
+
+.item1, .item2, .item3 {
+    margin: 0 10px 0 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.item1 img, .item2 img, .item3 img {
+    width: 25px;
+}
+
+.item1 img:hover, .item2 img:hover, .item3 img:hover {
+    opacity: 0.3;
+}
+ /* Courses nav */
+
+.courses-nav ul li {
+    list-style: none;
+}
+
+.courses-nav ul a {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 8px 16px;
+    height: 48px;
+}
+
+.courses-nav ul a li:hover {
+    color: rgb(118, 0, 165);
+}
+
+ .courses-nav ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 0 16px;
+     height: 48px;
+
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.205);
+     z-index: 9999;
+    }
+
+/* Background img */
+.bg-img {
+    display: flex;
+    position: relative;
+}
+
+.bg-color {
+    z-index: -1;
+    width: 200px;
+    height: 400px;
+    margin: 0 0 0 6px;
+    background:#ffae29 ;  
+}
+
+.background-img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 4px 0 0;
+   width: 1340px;
+   height: 400px;
+
+   z-index: -9999;
+}
+
+.container-img h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -.02em;
+    margin-bottom: 10px;
+}
+
+.container-img p {
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: column;
+    height: 15rem;
+    width: 30rem;
+    padding: 1.5rem;
+    background: white;
+
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.050), 0 5px 6px rgba(0, 0, 0, 0.050);
+}
+
+.phrase {
+    font-size: 2.25rem;
+    top: 500px;
+    left: 30px;
+
+    position: absolute;
+}
+
+
